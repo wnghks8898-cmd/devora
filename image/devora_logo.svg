@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 260 68">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #d0e0f2;
+      }
+
+      .st1 {
+        fill: #38b6ff;
+      }
+
+      .st2 {
+        fill-rule: evenodd;
+      }
+
+      .st2, .st3 {
+        fill: #1565c0;
+      }
+    </style>
+  </defs>
+  <path class="st2" d="M8,12h15c11,0,19,8,19,18s-8,18-19,18h-15V12ZM15,19v24h7c6.5,0,11.5-5,11.5-12s-5-12-11.5-12h-7Z"/>
+  <path class="st3" d="M50,12h26v7h-19v8h17v7h-17v9h19v7h-26V12Z"/>
+  <path class="st3" d="M80,12h8l11,27,11-27h8l-15,36h-11l-12-36Z"/>
+  <circle class="st1" cx="118" cy="13" r="4"/>
+  <path class="st2" d="M122,30c0-10.5,8-19.5,19.5-19.5s19.5,9,19.5,19.5-8,19.5-19.5,19.5-19.5-9-19.5-19.5ZM129,30c0,7,5.5,12.5,12.5,12.5s12.5-5.5,12.5-12.5-5.5-12.5-12.5-12.5-12.5,5.5-12.5,12.5Z"/>
+  <path class="st2" d="M166,12h16c7.5,0,13,5,13,12s-2.5,9-7,11l8,13h-8l-7-13h-7v13h-8V12ZM174,19v9.5h7.5c3.5,0,5.5-2,5.5-4.8s-2-4.8-5.5-4.8h-7.5Z"/>
+  <path class="st2" d="M202,48l15-36h7l15,36h-8l-3-8h-15l-3,8h-8ZM216.5,34h10l-5-14-5,14Z"/>
+  <path class="st0" d="M11.2,58h96c1.1,0,2,.9,2,2h0c0,1.1-.9,2-2,2H11.2c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2Z"/>
+  <path class="st1" d="M10,58h32c1.1,0,2,.9,2,2h0c0,1.1-.9,2-2,2H10c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2Z"/>
+</svg>

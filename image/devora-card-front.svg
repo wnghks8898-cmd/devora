@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Noto+Sans+KR:wght@300;400;700&amp;family=Noto+Serif+KR:wght@500&amp;display=swap');
+    </style>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(21,101,192,0.18)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="gridMask" cx="50%" cy="50%" r="50%">
+      <stop offset="30%" stop-color="white"/>
+      <stop offset="100%" stop-color="black"/>
+    </radialGradient>
+    <mask id="gridFade">
+      <rect width="900" height="500" fill="url(#gridMask)"/>
+    </mask>
+    <radialGradient id="blueGlow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(21,101,192,0.24)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="40%" stop-color="#1565C0"/>
+      <stop offset="70%" stop-color="#4aaae0"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="ruleLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(74,170,224,0.3)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" fill="#0d1b2a" rx="12"/>
+
+  <!-- Grid -->
+  <rect width="900" height="500" fill="url(#grid)" mask="url(#gridFade)" rx="12"/>
+
+  <!-- Blue glow -->
+  <rect width="900" height="500" fill="url(#blueGlow)" rx="12"/>
+
+  <!-- Accent line top -->
+  <rect width="900" height="2" fill="url(#accentLine)" opacity="0.7"/>
+
+  <!-- Logo group (scaled to fit) -->
+  <g transform="translate(38, 32) scale(1.6)">
+    <path fill="#cfddef" fill-rule="evenodd" d="M67.77,3h15c11,0,19,8,19,18s-8,18-19,18h-15V3ZM74.77,10v24h7c6.5,0,11.5-5,11.5-12s-5-12-11.5-12h-7Z"/>
+    <path fill="#cfddef" d="M109.77,3h26v7h-19v8h17v7h-17v9h19v7h-26V3Z"/>
+    <path fill="#cfddef" d="M139.77,3h8l11,27,11-27h8l-15,36h-11l-12-36Z"/>
+    <circle fill="#4aaae0" cx="177.77" cy="4" r="4"/>
+    <path fill="#cfddef" fill-rule="evenodd" d="M181.77,21c0-10.5,8-19.5,19.5-19.5s19.5,9,19.5,19.5-8,19.5-19.5,19.5-19.5-9-19.5-19.5ZM188.77,21c0,7,5.5,12.5,12.5,12.5s12.5-5.5,12.5-12.5-5.5-12.5-12.5-12.5-12.5,5.5-12.5,12.5Z"/>
+    <path fill="#cfddef" fill-rule="evenodd" d="M225.77,3h16c7.5,0,13,5,13,12,0,5-2.5,9-7,11l8,13h-8l-7-13h-7v13h-8V3ZM233.77,10v9.5h7.5c3.5,0,5.5-2,5.5-4.75s-2-4.75-5.5-4.75h-7.5Z"/>
+    <path fill="#cfddef" fill-rule="evenodd" d="M261.77,39l15-36h7l15,36h-8l-3-8h-15l-3,8h-8ZM276.27,25h10l-5-14-5,14Z"/>
+    <path fill="rgba(74,170,224,0.28)" d="M70.95,49h96c1.1,0,2,.9,2,2h0c0,1.1-.9,2-2,2h-96c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2Z"/>
+    <path fill="#4aaae0" d="M69.77,49h32c1.1,0,2,.9,2,2h0c0,1.1-.9,2-2,2h-32c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2Z"/>
+    <path fill="none" stroke="#4aaae0" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.5" d="M20.07,7.2L3,27.6l17.07,20.4"/>
+    <path fill="none" stroke="#4aaae0" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.5" d="M32.26,7.2l17.07,20.4-17.07,20.4"/>
+    <ellipse fill="#2f73ba" cx="26.82" cy="27.02" rx="5.38" ry="4.74"/>
+  </g>
+
+  <!-- Ambient bars (right side) -->
+  <g opacity="0.2">
+    <rect x="820" y="44" width="52" height="1" fill="#4aaae0" rx="1"/>
+    <rect x="836" y="52" width="36" height="1" fill="#4aaae0" rx="1"/>
+    <rect x="812" y="60" width="60" height="1" fill="#4aaae0" rx="1"/>
+    <rect x="844" y="68" width="28" height="1" fill="#4aaae0" rx="1"/>
+    <rect x="828" y="76" width="44" height="1" fill="#4aaae0" rx="1"/>
+  </g>
+
+  <!-- Rule line -->
+  <rect x="38" y="140" width="820" height="1" fill="url(#ruleLine)"/>
+
+  <!-- Label -->
+  <text x="38" y="188" font-family="'Noto Sans KR', sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#4aaae0">맞춤 제작 스튜디오</text>
+
+  <!-- Main title -->
+  <text x="38" y="288" font-family="'Bebas Neue', sans-serif" font-size="120" letter-spacing="4" fill="#e8f2fd">아이디어를</text>
+  <text x="38" y="400" font-family="'Bebas Neue', sans-serif" font-size="120" letter-spacing="4" fill="#4aaae0">현실로</text>
+
+  <!-- Sub text -->
+  <text x="38" y="450" font-family="'Noto Sans KR', sans-serif" font-size="17" font-weight="300" fill="rgba(138,171,204,0.65)" letter-spacing="2">웹사이트 · 모바일 앱 · 업무 자동화 · 시스템 구축</text>
+</svg>

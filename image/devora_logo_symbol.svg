@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.77 53">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1c61ae;
+      }
+
+      .cls-3 {
+        fill: #4aaae0;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #1a3060;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-5 {
+        fill: #2f73ba;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: #cfddef;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M67.77,3h15c11,0,19,8,19,18s-8,18-19,18h-15V3ZM74.77,10v24h7c6.5,0,11.5-5,11.5-12s-5-12-11.5-12h-7Z"/>
+  <path class="cls-1" d="M109.77,3h26v7h-19v8h17v7h-17v9h19v7h-26V3Z"/>
+  <path class="cls-1" d="M139.77,3h8l11,27,11-27h8l-15,36h-11l-12-36Z"/>
+  <circle class="cls-3" cx="177.77" cy="4" r="4"/>
+  <path class="cls-2" d="M181.77,21c0-10.5,8-19.5,19.5-19.5s19.5,9,19.5,19.5-8,19.5-19.5,19.5-19.5-9-19.5-19.5ZM188.77,21c0,7,5.5,12.5,12.5,12.5s12.5-5.5,12.5-12.5-5.5-12.5-12.5-12.5-12.5,5.5-12.5,12.5Z"/>
+  <path class="cls-2" d="M225.77,3h16c7.5,0,13,5,13,12,0,5-2.5,9-7,11l8,13h-8l-7-13h-7v13h-8V3ZM233.77,10v9.5h7.5c3.5,0,5.5-2,5.5-4.75s-2-4.75-5.5-4.75h-7.5Z"/>
+  <path class="cls-2" d="M261.77,39l15-36h7l15,36h-8l-3-8h-15l-3,8h-8ZM276.27,25h10l-5-14-5,14Z"/>
+  <path class="cls-6" d="M70.95,49h96c1.1,0,2,.9,2,2h0c0,1.1-.9,2-2,2h-96c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2Z"/>
+  <path class="cls-3" d="M69.77,49h32c1.1,0,2,.9,2,2h0c0,1.1-.9,2-2,2h-32c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2Z"/>
+  <path class="cls-4" d="M20.07,7.2L3,27.6l17.07,20.4"/>
+  <path class="cls-4" d="M32.26,7.2l17.07,20.4-17.07,20.4"/>
+  <ellipse class="cls-5" cx="26.82" cy="27.02" rx="5.38" ry="4.74"/>
+</svg>
